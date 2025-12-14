@@ -1,0 +1,92 @@
+[
+  {
+    "id": "#1001",
+    "title": "Login Issues - Can't Access Account",
+    "description": "Customer cannot log into their account despite entering the correct credentials. They attempted multiple password resets. The issue persists even after clearing cache and trying different devices.",
+    "customer": "John Smith",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "01/19/2024"
+  },
+  {
+    "id": "#1002",
+    "title": "Payment Failed",
+    "description": "Customer reports their payment repeatedly fails during checkout. They have tried both debit and credit options. The billing address and card details were confirmed as correct.",
+    "customer": "Sarah Johnson",
+    "priority": "HIGH PRIORITY",
+    "status": "In Progress",
+    "createdAt": "01/09/2024"
+  },
+  {
+    "id": "#1003",
+    "title": "Profile Update Error",
+    "description": "The customer is unable to update their personal information in the account settings. The save button becomes unresponsive after changes are made. The issue occurs across both mobile and desktop.",
+    "customer": "Michael Brown",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "02/03/2024"
+  },
+  {
+    "id": "#1004",
+    "title": "App Crashing on Android",
+    "description": "Customer reports the mobile app crashes when navigating to the account page. The issue was reproduced on two different Android devices. The application closes without showing any error message.",
+    "customer": "Emily Davis",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "02/14/2024"
+  },
+  {
+    "id": "#1005",
+    "title": "Feature Request - Dark Mode",
+    "description": "Customer is requesting the addition of dark mode in the application. They believe it would improve usability at night. The request was submitted after comparing with competing applications.",
+    "customer": "Robert Wilson",
+    "priority": "LOW PRIORITY",
+    "status": "In Progress",
+    "createdAt": "03/01/2024"
+  },
+  {
+    "id": "#1006",
+    "title": "Email Verification Not Working",
+    "description": "Customer is unable to verify their email because no verification email is being received. They checked their spam and tried using a different address. The issue persists even after multiple attempts.",
+    "customer": "Sophia Martinez",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In Progress",
+    "createdAt": "03/11/2024"
+  },
+  {
+    "id": "#1007",
+    "title": "Incorrect Billing",
+    "description": "Customer states they were mistakenly charged twice for the same subscription period. They provided screenshots of billing receipts. The duplicate charge has not been refunded automatically.",
+    "customer": "David Anderson",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "03/20/2024"
+  },
+  {
+    "id": "#1008",
+    "title": "Slow Dashboard Loading",
+    "description": "The dashboard takes significantly longer than usual to load during peak hours. The user has tested on different internet connections. Other pages load normally, but the dashboard remains delayed.",
+    "customer": "Olivia Thompson",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In Progress",
+    "createdAt": "04/05/2024"
+  },
+  {
+    "id": "#1009",
+    "title": "Refund Request",
+    "description": "Customer is requesting a refund after being charged post-cancellation. They submitted cancellation proof and billing records. The system did not recognize the cancellation request in time.",
+    "customer": "Ethan Garcia",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "04/12/2024"
+  },
+  {
+    "id": "#1010",
+    "title": "Notification Settings Issue",
+    "description": "Customer changes notification settings but the updates are not being saved. They reported receiving emails even after disabling them. The issue occurs only in the email notification section.",
+    "customer": "Isabella Rodriguez",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "05/01/2024"
+  }
+]

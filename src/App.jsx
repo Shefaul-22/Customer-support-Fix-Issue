@@ -11,7 +11,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 const fetchTickets = async () => {
-  const res = await fetch("./tiketsData.json");
+  const res = await fetch("tiketsData.json");
   return res.json();
 };
 

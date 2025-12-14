@@ -8,7 +8,7 @@ const Hero = ({ inProgress, resolved }) => {
 
 
 
-                <div className=" w-2xl flex bg-gradient-to-r from-[#632EE3] to-[#9F62F2] items-center justify-between relative py-8 md:py-14 lg:py-16 h-24 md:h-48 lg:h-56">
+                <div className=" w-2xl flex bg-gradient-to-r from-[#632EE3] to-[#9F62F2] items-center justify-between relative py-8 md:py-14 lg:py-16 h-24 md:h-48 lg:h-56 rounded-md">
 
 
                     <div className=''>
@@ -39,7 +39,7 @@ const Hero = ({ inProgress, resolved }) => {
 
                 </div>
 
-                <div className=" w-2xl flex bg-gradient-to-r from-[#54CF68] to-[#00827A] items-center justify-between relative py-8 md:py-14 lg:py-16 h-24 md:h-48 lg:h-56">
+                <div className=" w-2xl flex bg-gradient-to-r from-[#54CF68] to-[#00827A] items-center justify-between relative py-8 md:py-14 lg:py-16 h-24 md:h-48 lg:h-56 rounded-md">
 
 
                     <div className=''>

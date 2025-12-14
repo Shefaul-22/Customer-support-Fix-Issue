@@ -40,7 +40,7 @@ const Navbar = () => {
                 </div>
 
 
-                <button className="px-2 py-2 md:px-4 md:py-2 bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"><span>+</span> New Ticket</button>
+                <button className="px-2 py-2 md:px-4 md:py-2 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] font-normal md:font-semibold text-white cursor-pointer"><span>+</span> New Ticket</button>
 
 
             </div>

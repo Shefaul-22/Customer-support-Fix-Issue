@@ -8,6 +8,7 @@ import AllTickets from "./components/main/AllTickets";
 import TaskStatus from "./components/main/TaskStatus";
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+import Footer from "./components/Footer";
 
 
 const fetchTickets = async () => {
@@ -76,6 +77,13 @@ export default function App() {
 
       {/* Footer section */}
 
+      <footer>
+
+        <Footer></Footer>
+
+      </footer>
+
+      <ToastContainer />
       
 
       <ToastContainer />

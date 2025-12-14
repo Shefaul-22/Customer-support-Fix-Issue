@@ -1,4 +1,6 @@
 import React from 'react';
+import vector1Img from '../assets/vector1.png';
+import vector2Img from '../assets/image.png'
 
 const Hero = ({ inProgress, resolved }) => {
     return (
@@ -13,8 +15,8 @@ const Hero = ({ inProgress, resolved }) => {
 
                     <div className=''>
                         <img
-                            src="/src/assets/vector1.png"
-                            alt="Left Leaf"
+                            src={vector1Img}
+                            alt="Left vector"
                             className=" h-24 md:h-48  lg:h-56 object-cover opacity-100"
                         />
                     </div>
@@ -30,8 +32,8 @@ const Hero = ({ inProgress, resolved }) => {
 
                     <div>
                         <img
-                            src="/src/assets/image.png"
-                            alt="Left Leaf"
+                            src={vector2Img}
+                            alt="Right vector"
                             className="  h-24 md:h-48 lg:h-56 opacity-100"
                         />
                     </div>
@@ -44,8 +46,8 @@ const Hero = ({ inProgress, resolved }) => {
 
                     <div className=''>
                         <img
-                            src="/src/assets/vector1.png"
-                            alt="Left Leaf"
+                            src={vector1Img}
+                            alt="Left vector"
                             className=" h-24 md:h-48 lg:h-56 object-cover opacity-100"
                         />
                     </div>
@@ -61,8 +63,8 @@ const Hero = ({ inProgress, resolved }) => {
 
                     <div>
                         <img
-                            src="/src/assets/image.png"
-                            alt="Left Leaf"
+                            src={vector2Img}
+                            alt="Right vector"
                             className=" h-24 md:h-48 lg:h-56 opacity-100"
                         />
                     </div>

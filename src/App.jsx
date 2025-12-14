@@ -38,11 +38,14 @@ export default function App() {
 
   return (
     <div>
+
       <Navbar></Navbar>
+
+      <Hero inProgress={markCompleteTasks.length} resolved={resolvedTasks.length} ></Hero>
 
      
 
-      {/* Main layout */}
+      {/* main layout */}
       <main className="bg-[#F5F5F5]">
         <div className="flex flex-col md:flex-row  gap-5 md:gap-8 p-6">
 
@@ -62,7 +65,7 @@ export default function App() {
           </Suspense>
 
 
-          {/* Task status Section */}
+          {/*   Task status section */}
           <TaskStatus taskTickets={taskTickets} setTaskTickets={setTaskTickets}
 
             markCompleteTasks={markCompleteTasks} setMarkCompleteTasks={setMarkCompleteTasks}
